@@ -2,7 +2,7 @@
 
 CWD=$(dirname $(readlink -ne $BASH_SOURCE))
 
-set -e
+set -ex
 
 OTELDB_DIR=$1
 if [ $# -lt 1 ] || [ ! -d "$OTELDB_DIR" ]; then
@@ -18,7 +18,7 @@ fi
 
 CHART_PATH="$OTELDB_DIR/helm/oteldb/Chart.yaml"
 VERSION="$(awk '/version:/ { print $2; exit; } ' "$CHART_PATH")"
-cd "$OTELDB_DIR/helm/oteldb"
+cd "$OTELDB_DIR/helm"
 helm package --destination "$CWD" oteldb
 cd -
 helm repo index . --merge index.yaml
