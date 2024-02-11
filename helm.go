@@ -1,13 +1,9 @@
 // SPDX-License-Identifier: Apache-2.0
-// Copyright Authors of Cilium
+// Copyright Authors of go-faster
 
 package helm
 
-import (
-	"embed"
-)
+import "embed"
 
-var (
-	//go:embed *.tgz
-	HelmFS embed.FS
-)
+//go:embed *.tgz
+var HelmFS embed.FS

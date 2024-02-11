@@ -1,3 +1,3 @@
-module github.com/cilium/charts
+module github.com/go-faster/charts
 
-go 1.17
+go 1.21
