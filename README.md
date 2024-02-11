@@ -1,3 +1,3 @@
-# charts [![Go Reference](https://img.shields.io/badge/go-pkg-00ADD8)](https://pkg.go.dev/github.com/go-faster/charts#section-documentation) [![codecov](https://img.shields.io/codecov/c/github/go-faster/charts?label=cover)](https://codecov.io/gh/go-faster/charts) [![experimental](https://img.shields.io/badge/-experimental-blueviolet)](https://go-faster.org/docs/projects/status#experimental)
+This repository holds helm templates for the following oteldb releases:
 
-Work in progress.
+* [v0.2.0](https://github.com/go-faster/oteldb/releases/tag/v0.2.0) (_[source](https://github.com/go-faster/oteldb/tree/v0.2.0/install/kubernetes/oteldb)_)
