@@ -2,6 +2,16 @@ apiVersion: v1
 entries:
   oteldb:
   - apiVersion: v2
+    appVersion: v0.18.0
+    created: "2025-01-12T13:11:05+03:00"
+    description: A Helm chart for oteldb
+    digest: 3ecd5d586b63c5de4abbcdda5af6220ff70c31e49ed55c0de63f4cc0d8a6248e
+    name: oteldb
+    type: application
+    urls:
+    - oteldb-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v2
     appVersion: v0.6.1
     created: "2024-02-11T14:58:52+03:00"
     description: A Helm chart for oteldb
@@ -11,4 +21,4 @@ entries:
     urls:
     - oteldb-0.2.0.tgz
     version: 0.2.0
-generated: "2024-02-11T14:58:52.381040763+03:00"
+generated: "2025-01-12T13:11:05.539027746+03:00"
