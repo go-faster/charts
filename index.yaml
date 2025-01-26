@@ -5,7 +5,7 @@ entries:
     appVersion: v0.18.1
     created: "2025-01-12T21:48:59+03:00"
     description: A Helm chart for oteldb
-    digest: f360ec511ff453c82645e85e8b7750df0c38fe899c22884a6ba09ae9c462ba5d
+    digest: 62c7e63c5f4f7d2f7656e1063520bdf53f2e1bd68450319208aa04fbb357ffdd
     name: oteldb
     type: application
     urls:
@@ -41,4 +41,4 @@ entries:
     urls:
     - oteldb-0.2.0.tgz
     version: 0.2.0
-generated: "2025-01-12T21:48:59.406698301+03:00"
+generated: "2025-01-26T17:08:50.692654199+03:00"
